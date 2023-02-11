@@ -1,0 +1,154 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cabecalho{
+    height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-around;
+  padding: 24px;
+  background-color: rgb(253, 255, 254);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    
+
+}
+   
+.logo{ 
+ display: flex;
+ height: 10vh;
+ width: auto;
+ 
+}
+
+.botao-pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 5vh;
+    border-color: rgb(3, 6, 196);
+
+    
+}
+.menu{
+   display: flex;
+   gap: 20px;
+  flex-direction: row;
+}
+
+.conteudo{
+    background-color: rgb(255, 253, 253) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+   
+}
+
+.meu-lateral{
+    padding: 100px;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.left{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imagem{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 80vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 0, 153);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 200;
+}
+
+.texto-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: 400;
+    color: rgb(3, 0, 153);
+}
+
+.texto-right{
+    text-align: center;
+    padding: 5px;
+    font-weight: 400;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vh;
+    padding: auto;
+    margin: 1rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vh;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(3, 0, 153);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+
+.rodape{
+    padding: 10px;
+    border: 10px;
+    background-color: rgb(3, 6, 196);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+menu:hover{
+    background-color: rgba(3, 0, 153, 0.425);
+    border-radius: 20px;
+}
+
+
+    
